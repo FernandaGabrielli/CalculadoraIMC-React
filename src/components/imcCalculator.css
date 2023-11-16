@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1F1717;
+}
+
+.imc-calculator {
+    background-color: #CE5A67;
+    text-align: center;
+    color: #1F1717;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    box-sizing: border-box; 
+    width: calc(100% - 60px);
+    text-align: center;
+    color: #1F1717;
+    background-color: #F4BF96;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #F4BF96;
+    color: #CE5A67;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .resultado {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
